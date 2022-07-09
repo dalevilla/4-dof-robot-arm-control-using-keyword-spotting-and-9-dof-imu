@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+This project uses machine learning algorithm (keyword spotting) and inertial measurement unit (accelerometer, gyroscope, and magnetometer) to control a 4 degree of freedom robot arm. The yaw, pitch, and roll of the IMU controls the angular position of the servo motors of the robot arm. Since there is only one IMU, keyword spotting algorithm is used to switch between two servos—shoulder and elbow. A [demonstration video](https://youtu.be/j8ZxJlxczAA) is included to show how the control system works in real life, this is only an early version of the project as this project is still ongoing.
 
-You can use the [editor on GitHub](https://github.com/dalevilla/4-dof-robot-arm-control-using-keyword-spotting-and-9-dof-imu/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+From the video, the 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Since the focus of this project is on the controls, the mechanical construction of the robot arm is only for demonstration purposes and no scientific methods were performed in constructing it.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Materials
+---
+### Arduino Nano 33 BLE Sense
 
-```markdown
-Syntax highlighted code block
+### 5V Servo Motors
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dalevilla/4-dof-robot-arm-control-using-keyword-spotting-and-9-dof-imu/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+---
+# Methods
+---
+### Hardware
+---
+### Controls
+---
+#### Keyword Spotting
+---
+#### IMU
+---
+# References
