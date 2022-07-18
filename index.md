@@ -20,6 +20,7 @@ Now that the terms are discussed, next is how the project works (simplified). Th
 
 Since the focus of this project is on the controls, the mechanical construction of the robot arm is only for demonstration purposes and no scientific methods were performed in constructing it.
 
+WORK IN PROGRESS
 
 # Materials
 ---
